@@ -1,6 +1,6 @@
 import cv2 
 import datetime
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(2)
 cap.set(3, 640)
 cap.set(4, 480)
 text = 'Width: ' + str(cap.get(3)) + ' Height : ' + str(cap.get(4))
